@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0559C017AFD33A00539F89 /* IWSourceEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0559BF17AFD33A00539F89 /* IWSourceEditorController.m */; };
+		CC0559C417AFD50E00539F89 /* IWSelectAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0559C317AFD50E00539F89 /* IWSelectAction.m */; };
+		CC0559C817AFD8B600539F89 /* NSRangeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8D160A17AFAB7D00EFF3DE /* NSRangeHelper.m */; };
+		CC2E865017B8F1A400025196 /* IWAceJumpCharacterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2E864F17B8F1A400025196 /* IWAceJumpCharacterSet.m */; };
+		CC44F97E17AE15A000C1B3EF /* NSString+Searching.m in Sources */ = {isa = PBXBuildFile; fileRef = CC44F97D17AE15A000C1B3EF /* NSString+Searching.m */; };
+		CC4CFA0417B31D3B0032B4FF /* IWOpenBracketSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4CFA0317B31D3B0032B4FF /* IWOpenBracketSearchResult.m */; };
+		CC50B92017AE575600CFEE73 /* NSView+Dump.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50B91F17AE575600CFEE73 /* NSView+Dump.m */; };
+		CC55460617CE97BE00884E0C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8D162417AFB25D00EFF3DE /* XCTest.framework */; };
+		CC56648C17ADCD2E00FEC8AE /* IWObjcTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56648B17ADCD2E00FEC8AE /* IWObjcTokenizer.m */; };
+		CC5885D017B1E5BC00C05B2E /* IWBracketBalancingCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5885CF17B1E5BC00C05B2E /* IWBracketBalancingCounterTests.m */; };
+		CC5885D917B21AAF00C05B2E /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5885D817B21AAF00C05B2E /* OCMockito.framework */; };
+		CC5885DA17B21B2F00C05B2E /* OCMockito.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC5885D817B21AAF00C05B2E /* OCMockito.framework */; };
+		CC5885DC17B21C0A00C05B2E /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5885DB17B21C0A00C05B2E /* OCHamcrest.framework */; };
+		CC5885DD17B21C2F00C05B2E /* OCHamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC5885DB17B21C0A00C05B2E /* OCHamcrest.framework */; };
+		CC6DFD9317B513AD00BB1574 /* DVTSourceTextView+AceJump.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DFD9117B513AD00BB1574 /* DVTSourceTextView+AceJump.m */; };
+		CC70BA2817CFDA9A00BE3CDC /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70BA2417CFDA9A00BE3CDC /* IDEFoundation.framework */; };
+		CC70BA2917CFDA9A00BE3CDC /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70BA2517CFDA9A00BE3CDC /* IDEKit.framework */; };
+		CC70BA2A17CFDA9A00BE3CDC /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70BA2617CFDA9A00BE3CDC /* DVTFoundation.framework */; };
+		CC70BA2B17CFDA9A00BE3CDC /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70BA2717CFDA9A00BE3CDC /* DVTKit.framework */; };
+		CC76293117ACAE1400B16C79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC76293017ACAE1400B16C79 /* Cocoa.framework */; };
+		CC76293B17ACAE1400B16C79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC76293917ACAE1400B16C79 /* InfoPlist.strings */; };
+		CC76294417ACAEE300B16C79 /* XMate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC76294317ACAEE300B16C79 /* XMate.m */; };
+		CC8D160B17AFAB7D00EFF3DE /* NSRangeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8D160A17AFAB7D00EFF3DE /* NSRangeHelper.m */; };
+		CC8D161917AFADC400EFF3DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC8D161717AFADC400EFF3DE /* InfoPlist.strings */; };
+		CC8D162317AFAF7A00EFF3DE /* NSRangeHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8D162217AFAF7A00EFF3DE /* NSRangeHelperTests.m */; };
+		CC8F0F9D17B4C02000716F26 /* IWAceJumpController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8F0F9C17B4C02000716F26 /* IWAceJumpController.m */; };
+		CCA0558E17B3277C00ECCB5D /* IWOpenBracketSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4CFA0317B31D3B0032B4FF /* IWOpenBracketSearchResult.m */; };
+		CCAD45AB17B13BC600521B0E /* IWBracketSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD45AA17B13BC600521B0E /* IWBracketSearcher.m */; };
+		CCAD45AC17B13BC600521B0E /* IWBracketSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD45AA17B13BC600521B0E /* IWBracketSearcher.m */; };
+		CCAD45AF17B1653E00521B0E /* IWBracketBalancingCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD45AE17B1653E00521B0E /* IWBracketBalancingCounter.m */; };
+		CCAD45B017B1653E00521B0E /* IWBracketBalancingCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD45AE17B1653E00521B0E /* IWBracketBalancingCounter.m */; };
+		CCAD45B517B1CAE700521B0E /* IWBracketSearcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD45B417B1CAE700521B0E /* IWBracketSearcherTests.m */; };
+		CCE24F5E17B78533002F8B15 /* NSStringSearchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE24F5D17B78533002F8B15 /* NSStringSearchingTests.m */; };
+		CCE24F5F17B78610002F8B15 /* NSString+Searching.m in Sources */ = {isa = PBXBuildFile; fileRef = CC44F97D17AE15A000C1B3EF /* NSString+Searching.m */; };
+		CCE3232317B8DDD500519798 /* IWAceJumpTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE3232217B8DDD500519798 /* IWAceJumpTextField.m */; };
+		CCEEEA2317B79A060046DA9E /* IWAceJumpCandidateLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEEEA2217B79A060046DA9E /* IWAceJumpCandidateLabel.m */; };
+		CCF29B8317B8CCA00088A0FF /* libParseKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF29B8217B8CCA00088A0FF /* libParseKit.a */; };
+		CCF29B8417B8CCA00088A0FF /* libParseKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF29B8217B8CCA00088A0FF /* libParseKit.a */; };
+		CCF29B8517B8CCC40088A0FF /* libParseKit.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCF29B8217B8CCA00088A0FF /* libParseKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC8D161D17AFADC400EFF3DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC76292517ACAE1400B16C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC76292C17ACAE1400B16C79;
+			remoteInfo = XMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC50B94F17B1061000716215 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				CCF29B8517B8CCC40088A0FF /* libParseKit.a in CopyFiles */,
+				CC5885DD17B21C2F00C05B2E /* OCHamcrest.framework in CopyFiles */,
+				CC5885DA17B21B2F00C05B2E /* OCMockito.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC0559BE17AFD33A00539F89 /* IWSourceEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWSourceEditorController.h; sourceTree = "<group>"; };
+		CC0559BF17AFD33A00539F89 /* IWSourceEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWSourceEditorController.m; sourceTree = "<group>"; };
+		CC0559C317AFD50E00539F89 /* IWSelectAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWSelectAction.m; sourceTree = "<group>"; };
+		CC2E864E17B8F1A400025196 /* IWAceJumpCharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWAceJumpCharacterSet.h; sourceTree = "<group>"; };
+		CC2E864F17B8F1A400025196 /* IWAceJumpCharacterSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWAceJumpCharacterSet.m; sourceTree = "<group>"; };
+		CC359FE717B8D093009871BC /* ParseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseKit.framework; path = SharedFrameworks/ParseKit.framework; sourceTree = "<group>"; };
+		CC44F97C17AE15A000C1B3EF /* NSString+Searching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Searching.h"; sourceTree = "<group>"; };
+		CC44F97D17AE15A000C1B3EF /* NSString+Searching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Searching.m"; sourceTree = "<group>"; };
+		CC4CF9FA17B2615A0032B4FF /* DVTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFoundation.h; sourceTree = "<group>"; };
+		CC4CF9FB17B2615A0032B4FF /* DVTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTKit.h; sourceTree = "<group>"; };
+		CC4CF9FC17B2615A0032B4FF /* IDEFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEFoundation.h; sourceTree = "<group>"; };
+		CC4CF9FD17B2615A0032B4FF /* IDEKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEKit.h; sourceTree = "<group>"; };
+		CC4CF9FE17B2615A0032B4FF /* IDESourceEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceEditor.h; sourceTree = "<group>"; };
+		CC4CFA0217B31D3B0032B4FF /* IWOpenBracketSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWOpenBracketSearchResult.h; sourceTree = "<group>"; };
+		CC4CFA0317B31D3B0032B4FF /* IWOpenBracketSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWOpenBracketSearchResult.m; sourceTree = "<group>"; };
+		CC50B91E17AE575600CFEE73 /* NSView+Dump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Dump.h"; sourceTree = "<group>"; };
+		CC50B91F17AE575600CFEE73 /* NSView+Dump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Dump.m"; sourceTree = "<group>"; };
+		CC56648A17ADCD2E00FEC8AE /* IWObjcTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWObjcTokenizer.h; sourceTree = "<group>"; };
+		CC56648B17ADCD2E00FEC8AE /* IWObjcTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWObjcTokenizer.m; sourceTree = "<group>"; };
+		CC5885CF17B1E5BC00C05B2E /* IWBracketBalancingCounterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWBracketBalancingCounterTests.m; sourceTree = "<group>"; };
+		CC5885D817B21AAF00C05B2E /* OCMockito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMockito.framework; path = SharedFrameworks/OCMockito.framework; sourceTree = "<group>"; };
+		CC5885DB17B21C0A00C05B2E /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = SharedFrameworks/OCHamcrest.framework; sourceTree = "<group>"; };
+		CC6DFD9117B513AD00BB1574 /* DVTSourceTextView+AceJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTSourceTextView+AceJump.m"; sourceTree = "<group>"; };
+		CC6DFD9217B513AD00BB1574 /* DVTSourceTextView+AceJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceTextView+AceJump.h"; sourceTree = "<group>"; };
+		CC70BA2417CFDA9A00BE3CDC /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../../Applications/Xcode5.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		CC70BA2517CFDA9A00BE3CDC /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../Applications/Xcode5.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		CC70BA2617CFDA9A00BE3CDC /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../../Applications/Xcode5.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		CC70BA2717CFDA9A00BE3CDC /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../../Applications/Xcode5.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		CC76292D17ACAE1400B16C79 /* XMate.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMate.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC76293017ACAE1400B16C79 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CC76293317ACAE1400B16C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC76293517ACAE1400B16C79 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CC76293817ACAE1400B16C79 /* XMate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMate-Info.plist"; sourceTree = "<group>"; };
+		CC76293A17ACAE1400B16C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC76293C17ACAE1400B16C79 /* XMate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMate-Prefix.pch"; sourceTree = "<group>"; };
+		CC76294217ACAEE300B16C79 /* XMate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMate.h; sourceTree = "<group>"; };
+		CC76294317ACAEE300B16C79 /* XMate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMate.m; sourceTree = "<group>"; };
+		CC8D160917AFAB7D00EFF3DE /* NSRangeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSRangeHelper.h; sourceTree = "<group>"; };
+		CC8D160A17AFAB7D00EFF3DE /* NSRangeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRangeHelper.m; sourceTree = "<group>"; };
+		CC8D161117AFADC400EFF3DE /* XMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8D161617AFADC400EFF3DE /* XMateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMateTests-Info.plist"; sourceTree = "<group>"; };
+		CC8D161817AFADC400EFF3DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC8D161C17AFADC400EFF3DE /* XMateTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMateTests-Prefix.pch"; sourceTree = "<group>"; };
+		CC8D162217AFAF7A00EFF3DE /* NSRangeHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSRangeHelperTests.m; sourceTree = "<group>"; };
+		CC8D162417AFB25D00EFF3DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC8F0F9B17B4C02000716F26 /* IWAceJumpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWAceJumpController.h; sourceTree = "<group>"; };
+		CC8F0F9C17B4C02000716F26 /* IWAceJumpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWAceJumpController.m; sourceTree = "<group>"; };
+		CC9F2A7517AE37C500E05664 /* IWSelectAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWSelectAction.h; sourceTree = "<group>"; };
+		CCAD45A917B13BC600521B0E /* IWBracketSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWBracketSearcher.h; sourceTree = "<group>"; };
+		CCAD45AA17B13BC600521B0E /* IWBracketSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWBracketSearcher.m; sourceTree = "<group>"; };
+		CCAD45AD17B1653E00521B0E /* IWBracketBalancingCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWBracketBalancingCounter.h; sourceTree = "<group>"; };
+		CCAD45AE17B1653E00521B0E /* IWBracketBalancingCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWBracketBalancingCounter.m; sourceTree = "<group>"; };
+		CCAD45B417B1CAE700521B0E /* IWBracketSearcherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWBracketSearcherTests.m; sourceTree = "<group>"; };
+		CCE24F5D17B78533002F8B15 /* NSStringSearchingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringSearchingTests.m; sourceTree = "<group>"; };
+		CCE3232117B8DDD500519798 /* IWAceJumpTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWAceJumpTextField.h; sourceTree = "<group>"; };
+		CCE3232217B8DDD500519798 /* IWAceJumpTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWAceJumpTextField.m; sourceTree = "<group>"; };
+		CCEEEA2117B79A060046DA9E /* IWAceJumpCandidateLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWAceJumpCandidateLabel.h; sourceTree = "<group>"; };
+		CCEEEA2217B79A060046DA9E /* IWAceJumpCandidateLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWAceJumpCandidateLabel.m; sourceTree = "<group>"; };
+		CCF29B8217B8CCA00088A0FF /* libParseKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseKit.a; path = SharedFrameworks/libParseKit.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC76292A17ACAE1400B16C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC70BA2817CFDA9A00BE3CDC /* IDEFoundation.framework in Frameworks */,
+				CC70BA2917CFDA9A00BE3CDC /* IDEKit.framework in Frameworks */,
+				CC70BA2A17CFDA9A00BE3CDC /* DVTFoundation.framework in Frameworks */,
+				CC70BA2B17CFDA9A00BE3CDC /* DVTKit.framework in Frameworks */,
+				CCF29B8317B8CCA00088A0FF /* libParseKit.a in Frameworks */,
+				CC76293117ACAE1400B16C79 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8D160E17AFADC400EFF3DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC55460617CE97BE00884E0C /* XCTest.framework in Frameworks */,
+				CCF29B8417B8CCA00088A0FF /* libParseKit.a in Frameworks */,
+				CC5885D917B21AAF00C05B2E /* OCMockito.framework in Frameworks */,
+				CC5885DC17B21C0A00C05B2E /* OCHamcrest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC44F97B17AE156900C1B3EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CC44F97C17AE15A000C1B3EF /* NSString+Searching.h */,
+				CC44F97D17AE15A000C1B3EF /* NSString+Searching.m */,
+				CC50B91E17AE575600CFEE73 /* NSView+Dump.h */,
+				CC50B91F17AE575600CFEE73 /* NSView+Dump.m */,
+				CC8D160917AFAB7D00EFF3DE /* NSRangeHelper.h */,
+				CC8D160A17AFAB7D00EFF3DE /* NSRangeHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CC4CF9F917B2615A0032B4FF /* XcodeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CC4CF9FA17B2615A0032B4FF /* DVTFoundation.h */,
+				CC4CF9FB17B2615A0032B4FF /* DVTKit.h */,
+				CC4CF9FC17B2615A0032B4FF /* IDEFoundation.h */,
+				CC4CF9FD17B2615A0032B4FF /* IDEKit.h */,
+				CC4CF9FE17B2615A0032B4FF /* IDESourceEditor.h */,
+			);
+			path = XcodeClasses;
+			sourceTree = "<group>";
+		};
+		CC76292417ACAE1400B16C79 = {
+			isa = PBXGroup;
+			children = (
+				CC76293617ACAE1400B16C79 /* XMate */,
+				CC8D161417AFADC400EFF3DE /* XMateTests */,
+				CC76292F17ACAE1400B16C79 /* Frameworks */,
+				CC76292E17ACAE1400B16C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC76292E17ACAE1400B16C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC76292D17ACAE1400B16C79 /* XMate.xcplugin */,
+				CC8D161117AFADC400EFF3DE /* XMateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC76292F17ACAE1400B16C79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC70BA2417CFDA9A00BE3CDC /* IDEFoundation.framework */,
+				CC70BA2517CFDA9A00BE3CDC /* IDEKit.framework */,
+				CC70BA2617CFDA9A00BE3CDC /* DVTFoundation.framework */,
+				CC70BA2717CFDA9A00BE3CDC /* DVTKit.framework */,
+				CC359FE717B8D093009871BC /* ParseKit.framework */,
+				CCF29B8217B8CCA00088A0FF /* libParseKit.a */,
+				CC5885DB17B21C0A00C05B2E /* OCHamcrest.framework */,
+				CC5885D817B21AAF00C05B2E /* OCMockito.framework */,
+				CC8D162417AFB25D00EFF3DE /* XCTest.framework */,
+				CC76293017ACAE1400B16C79 /* Cocoa.framework */,
+				CC76293217ACAE1400B16C79 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC76293217ACAE1400B16C79 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC76293317ACAE1400B16C79 /* Foundation.framework */,
+				CC76293517ACAE1400B16C79 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CC76293617ACAE1400B16C79 /* XMate */ = {
+			isa = PBXGroup;
+			children = (
+				CC4CF9F917B2615A0032B4FF /* XcodeClasses */,
+				CC44F97B17AE156900C1B3EF /* Helpers */,
+				CC8F0F9A17B4C00000716F26 /* AceJump */,
+				CC8F0F9517B4A5A200716F26 /* SelectAction */,
+				CC76293717ACAE1400B16C79 /* Supporting Files */,
+				CC76294217ACAEE300B16C79 /* XMate.h */,
+				CC76294317ACAEE300B16C79 /* XMate.m */,
+				CC0559BE17AFD33A00539F89 /* IWSourceEditorController.h */,
+				CC0559BF17AFD33A00539F89 /* IWSourceEditorController.m */,
+			);
+			path = XMate;
+			sourceTree = "<group>";
+		};
+		CC76293717ACAE1400B16C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC76293817ACAE1400B16C79 /* XMate-Info.plist */,
+				CC76293917ACAE1400B16C79 /* InfoPlist.strings */,
+				CC76293C17ACAE1400B16C79 /* XMate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC8D161417AFADC400EFF3DE /* XMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5885CF17B1E5BC00C05B2E /* IWBracketBalancingCounterTests.m */,
+				CCAD45B417B1CAE700521B0E /* IWBracketSearcherTests.m */,
+				CC8D162217AFAF7A00EFF3DE /* NSRangeHelperTests.m */,
+				CCE24F5D17B78533002F8B15 /* NSStringSearchingTests.m */,
+				CC8D161517AFADC400EFF3DE /* Supporting Files */,
+			);
+			path = XMateTests;
+			sourceTree = "<group>";
+		};
+		CC8D161517AFADC400EFF3DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC8D161617AFADC400EFF3DE /* XMateTests-Info.plist */,
+				CC8D161717AFADC400EFF3DE /* InfoPlist.strings */,
+				CC8D161C17AFADC400EFF3DE /* XMateTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC8F0F9517B4A5A200716F26 /* SelectAction */ = {
+			isa = PBXGroup;
+			children = (
+				CC56648A17ADCD2E00FEC8AE /* IWObjcTokenizer.h */,
+				CC56648B17ADCD2E00FEC8AE /* IWObjcTokenizer.m */,
+				CC9F2A7517AE37C500E05664 /* IWSelectAction.h */,
+				CC0559C317AFD50E00539F89 /* IWSelectAction.m */,
+				CCAD45A917B13BC600521B0E /* IWBracketSearcher.h */,
+				CCAD45AA17B13BC600521B0E /* IWBracketSearcher.m */,
+				CCAD45AD17B1653E00521B0E /* IWBracketBalancingCounter.h */,
+				CCAD45AE17B1653E00521B0E /* IWBracketBalancingCounter.m */,
+				CC4CFA0217B31D3B0032B4FF /* IWOpenBracketSearchResult.h */,
+				CC4CFA0317B31D3B0032B4FF /* IWOpenBracketSearchResult.m */,
+			);
+			path = SelectAction;
+			sourceTree = "<group>";
+		};
+		CC8F0F9A17B4C00000716F26 /* AceJump */ = {
+			isa = PBXGroup;
+			children = (
+				CC6DFD9217B513AD00BB1574 /* DVTSourceTextView+AceJump.h */,
+				CC6DFD9117B513AD00BB1574 /* DVTSourceTextView+AceJump.m */,
+				CC8F0F9B17B4C02000716F26 /* IWAceJumpController.h */,
+				CC8F0F9C17B4C02000716F26 /* IWAceJumpController.m */,
+				CCEEEA2117B79A060046DA9E /* IWAceJumpCandidateLabel.h */,
+				CCEEEA2217B79A060046DA9E /* IWAceJumpCandidateLabel.m */,
+				CCE3232117B8DDD500519798 /* IWAceJumpTextField.h */,
+				CCE3232217B8DDD500519798 /* IWAceJumpTextField.m */,
+				CC2E864E17B8F1A400025196 /* IWAceJumpCharacterSet.h */,
+				CC2E864F17B8F1A400025196 /* IWAceJumpCharacterSet.m */,
+			);
+			path = AceJump;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC76292C17ACAE1400B16C79 /* XMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC76293F17ACAE1400B16C79 /* Build configuration list for PBXNativeTarget "XMate" */;
+			buildPhases = (
+				CC76292917ACAE1400B16C79 /* Sources */,
+				CC76292A17ACAE1400B16C79 /* Frameworks */,
+				CC76292B17ACAE1400B16C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMate;
+			productName = XMate;
+			productReference = CC76292D17ACAE1400B16C79 /* XMate.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CC8D161017AFADC400EFF3DE /* XMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8D161F17AFADC400EFF3DE /* Build configuration list for PBXNativeTarget "XMateTests" */;
+			buildPhases = (
+				CC8D160D17AFADC400EFF3DE /* Sources */,
+				CC8D160E17AFADC400EFF3DE /* Frameworks */,
+				CC8D160F17AFADC400EFF3DE /* Resources */,
+				CC50B94F17B1061000716215 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC8D161E17AFADC400EFF3DE /* PBXTargetDependency */,
+			);
+			name = XMateTests;
+			productName = XMateTests;
+			productReference = CC8D161117AFADC400EFF3DE /* XMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC76292517ACAE1400B16C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Indie Works";
+				TargetAttributes = {
+					CC8D161017AFADC400EFF3DE = {
+						TestTargetID = CC76292C17ACAE1400B16C79;
+					};
+				};
+			};
+			buildConfigurationList = CC76292817ACAE1400B16C79 /* Build configuration list for PBXProject "XMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC76292417ACAE1400B16C79;
+			productRefGroup = CC76292E17ACAE1400B16C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC76292C17ACAE1400B16C79 /* XMate */,
+				CC8D161017AFADC400EFF3DE /* XMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC76292B17ACAE1400B16C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC76293B17ACAE1400B16C79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8D160F17AFADC400EFF3DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8D161917AFADC400EFF3DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC76292917ACAE1400B16C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEEEA2317B79A060046DA9E /* IWAceJumpCandidateLabel.m in Sources */,
+				CC0559C417AFD50E00539F89 /* IWSelectAction.m in Sources */,
+				CC76294417ACAEE300B16C79 /* XMate.m in Sources */,
+				CCAD45AF17B1653E00521B0E /* IWBracketBalancingCounter.m in Sources */,
+				CC6DFD9317B513AD00BB1574 /* DVTSourceTextView+AceJump.m in Sources */,
+				CC8F0F9D17B4C02000716F26 /* IWAceJumpController.m in Sources */,
+				CC4CFA0417B31D3B0032B4FF /* IWOpenBracketSearchResult.m in Sources */,
+				CC44F97E17AE15A000C1B3EF /* NSString+Searching.m in Sources */,
+				CC2E865017B8F1A400025196 /* IWAceJumpCharacterSet.m in Sources */,
+				CC0559C017AFD33A00539F89 /* IWSourceEditorController.m in Sources */,
+				CCE3232317B8DDD500519798 /* IWAceJumpTextField.m in Sources */,
+				CCAD45AB17B13BC600521B0E /* IWBracketSearcher.m in Sources */,
+				CC56648C17ADCD2E00FEC8AE /* IWObjcTokenizer.m in Sources */,
+				CC50B92017AE575600CFEE73 /* NSView+Dump.m in Sources */,
+				CC8D160B17AFAB7D00EFF3DE /* NSRangeHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8D160D17AFADC400EFF3DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE24F5F17B78610002F8B15 /* NSString+Searching.m in Sources */,
+				CCA0558E17B3277C00ECCB5D /* IWOpenBracketSearchResult.m in Sources */,
+				CC0559C817AFD8B600539F89 /* NSRangeHelper.m in Sources */,
+				CCE24F5E17B78533002F8B15 /* NSStringSearchingTests.m in Sources */,
+				CCAD45B517B1CAE700521B0E /* IWBracketSearcherTests.m in Sources */,
+				CCAD45B017B1653E00521B0E /* IWBracketBalancingCounter.m in Sources */,
+				CC5885D017B1E5BC00C05B2E /* IWBracketBalancingCounterTests.m in Sources */,
+				CCAD45AC17B13BC600521B0E /* IWBracketSearcher.m in Sources */,
+				CC8D162317AFAF7A00EFF3DE /* NSRangeHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC8D161E17AFADC400EFF3DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC76292C17ACAE1400B16C79 /* XMate */;
+			targetProxy = CC8D161D17AFADC400EFF3DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC76293917ACAE1400B16C79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC76293A17ACAE1400B16C79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC8D161717AFADC400EFF3DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC8D161817AFADC400EFF3DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC76293D17ACAE1400B16C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					$SRCROOT,
+					$SRCROOT/SharedFrameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = $SRCROOT;
+				LIBRARY_SEARCH_PATHS = (
+					$SRCROOT,
+					$SRCROOT/SharedFrameworks,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		CC76293E17ACAE1400B16C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					$SRCROOT,
+					$SRCROOT/SharedFrameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = $SRCROOT;
+				LIBRARY_SEARCH_PATHS = (
+					$SRCROOT,
+					$SRCROOT/SharedFrameworks,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		CC76294017ACAE1400B16C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$SRCROOT,
+					$SRCROOT/SharedFrameworks,
+					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/SharedFrameworks",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMate/XMate-Prefix.pch";
+				INFOPLIST_FILE = "XMate/XMate-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pride/Projects/Xcode/XMate,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		CC76294117ACAE1400B16C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$SRCROOT,
+					$SRCROOT/SharedFrameworks,
+					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/SharedFrameworks",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMate/XMate-Prefix.pch";
+				INFOPLIST_FILE = "XMate/XMate-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pride/Projects/Xcode/XMate,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+		CC8D162017AFADC400EFF3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					$SRCROOT/XMate,
+					$SRCROOT/XMateTests,
+					$SRCROOT/SharedFrameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMateTests/XMateTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XMateTests/XMateTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$SRCROOT/**",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ParseKit-dedcuiziyyxdbifpdjamhgyubzhz/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC8D162117AFADC400EFF3DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					$SRCROOT/XMate,
+					$SRCROOT/XMateTests,
+					$SRCROOT/SharedFrameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMateTests/XMateTests-Prefix.pch";
+				INFOPLIST_FILE = "XMateTests/XMateTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$SRCROOT/**",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ParseKit-dedcuiziyyxdbifpdjamhgyubzhz/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC76292817ACAE1400B16C79 /* Build configuration list for PBXProject "XMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC76293D17ACAE1400B16C79 /* Debug */,
+				CC76293E17ACAE1400B16C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC76293F17ACAE1400B16C79 /* Build configuration list for PBXNativeTarget "XMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC76294017ACAE1400B16C79 /* Debug */,
+				CC76294117ACAE1400B16C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8D161F17AFADC400EFF3DE /* Build configuration list for PBXNativeTarget "XMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8D162017AFADC400EFF3DE /* Debug */,
+				CC8D162117AFADC400EFF3DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC76292517ACAE1400B16C79 /* Project object */;
+}
