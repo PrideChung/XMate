@@ -65,7 +65,7 @@ Select brackets action is similar to select scope action, but it will only exten
 
 ## XVim Compatibility
 
-They can work together without crashing each other. Ace Jump Mode works fine since it just moves the caret to another position. Selecting actions are a little bit tricky, I don't recommend using XMate's selecting actions if you're using XVim as well.
+They can work together without crashing each other. Ace Jump Mode works fine since it just moves the caret to another position. Selecting actions are a little bit tricky, I don't recommend using XMate's selecting actions if you're using XVim.
 
 ## License
 
