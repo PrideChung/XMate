@@ -7,11 +7,11 @@ TextMate and Emacs goodies for Xcode.
 ## What is it?
 It's a Xcode plugin provides some handy TextMate and Emacs actions.
 
-Selecting actions:
+###Selecting actions demo:
 
 ![image](http://i.minus.com/i9B2FwGwiUJ8F.gif)
 
-Emacs Ace Jump mode:
+###Emacs Ace Jump mode demo:
 
 ![image](http://i.minus.com/ibzQzA079MFYWc.gif)
 
@@ -20,17 +20,16 @@ Xcode5
 
 ## Installation
 
-### Build it yourself
+### Build It Yourself
 1. No matter which Xcode5 developer preview you're using, rename it to `Xcode5.app`, make sure it's file path is `/Applications/Xcode5.app`, because some Xcode frameworks need to be linked from the Xcode app itself.
 2. Clone this repo, build it, then restart Xcode. You can find XMate's actions under Xcode's Edit menu if it's loaded.
 
 ### Or Use My Build.
 I'm working on my site, will provide it later.
 
-
 ## Usage
 
-### Settings Your Own keyboard shortcuts
+### Set Your Own Keyboard Shortcuts
 
 All available actions are under Xcode's "Edit" menu. There aren't any keyboard shortcuts by default in case of conflicts. You can assign your favorite keyboard shortcuts in `System Preferences` -> `Keyboard`.
 
@@ -64,7 +63,7 @@ Select brackets action is similar to select scope action, but it will only exten
 
 6. You can always push `esc` or the ace jump hotkey you assigned to quit ace jump mode.- 
 
-## XVim compatibility
+## XVim Compatibility
 
 They can work together without crashing each other. Ace Jump Mode works fine since it just moves the caret to another position. Selecting actions are a little bit tricky, I don't recommend using XMate's selecting actions if you're using XVim as well.
 
