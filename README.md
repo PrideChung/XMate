@@ -22,10 +22,16 @@ Xcode5
 
 ### Build It Yourself
 1. No matter which Xcode5 developer preview you're using, rename it to `Xcode5.app`, make sure it's file path is `/Applications/Xcode5.app`, because some Xcode frameworks need to be linked from the Xcode app itself.
-2. Clone this repo, build it, then restart Xcode. You can find XMate's actions under Xcode's Edit menu if it's loaded.
+2. Clone this repo, build it, then restart Xcode. 
 
 ### Or Use My Build.
-I'm working on my site, will provide it later.
+1. Download [XMate-1.0.zip](http://www.indieworks.org/files/XMate-1.0.zip)
+2. Unzip it, move `XMate.xcplugin` into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins`.
+3. Restart Xcode.
+
+
+**You can find XMate's actions under Xcode's Edit menu if it's loaded.**
+
 
 ## Usage
 
