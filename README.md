@@ -73,6 +73,16 @@ Select brackets action is similar to select scope action, but it will only exten
 
 They can work together without crashing each other. Ace Jump Mode works fine since it just moves the caret to another position. Selecting actions are a little bit tricky, I don't recommend using XMate's selecting actions if you're using XVim.
 
+## Credits
+
+#### [ParseKit](http://parsekit.com/) 
+I have no idea about how to write a syntax parser, ParseKit did all the heavy lifting for me behind the scene.
+
+(For my Chinese fellas)
+
+####[Xcode 4 插件制作入门](http://onevcat.com/2013/02/xcode-plugin/)
+[@onevcat](https://twitter.com/onevcat) 的好文章，学习制作 Xcode 插件必看。
+
 ## License
 
 XMate is available under the MIT license. See the LICENSE.txt file for more information.
