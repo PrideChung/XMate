@@ -16,16 +16,16 @@ It's a Xcode plugin provides some handy TextMate and Emacs actions.
 ![image](http://i.minus.com/ibzQzA079MFYWc.gif)
 
 ## Requirement
-Xcode5
+Xcode5 GM seed
 
 ## Installation
 
 ### Build It Yourself
-1. No matter which Xcode5 developer preview you're using, rename it to `Xcode5.app`, make sure it's file path is `/Applications/Xcode5.app`, because some Xcode frameworks need to be linked from the Xcode app itself.
+1. Make sure the file path of Xcode5 GM seed is `/Applications/Xcode.app`, because some Xcode frameworks need to be linked from the Xcode app itself.
 2. Clone this repo, build it, then restart Xcode. 
 
 ### Or Use My Build.
-1. Download [XMate-1.0.zip](http://www.indieworks.org/files/XMate-1.0.zip)
+1. Download [XMate-1.01.zip](http://www.indieworks.org/files/XMate-1.01.zip)
 2. Unzip it, move `XMate.xcplugin` into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins`.
 3. Restart Xcode.
 
