@@ -11,6 +11,10 @@
 		CC0559C417AFD50E00539F89 /* IWSelectAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0559C317AFD50E00539F89 /* IWSelectAction.m */; };
 		CC0559C817AFD8B600539F89 /* NSRangeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8D160A17AFAB7D00EFF3DE /* NSRangeHelper.m */; };
 		CC2E865017B8F1A400025196 /* IWAceJumpCharacterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2E864F17B8F1A400025196 /* IWAceJumpCharacterSet.m */; };
+		CC33443D17E24F38005165AD /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33443917E24F38005165AD /* IDEFoundation.framework */; };
+		CC33443E17E24F38005165AD /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33443A17E24F38005165AD /* IDEKit.framework */; };
+		CC33443F17E24F38005165AD /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33443B17E24F38005165AD /* DVTFoundation.framework */; };
+		CC33444017E24F38005165AD /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC33443C17E24F38005165AD /* DVTKit.framework */; };
 		CC44F97E17AE15A000C1B3EF /* NSString+Searching.m in Sources */ = {isa = PBXBuildFile; fileRef = CC44F97D17AE15A000C1B3EF /* NSString+Searching.m */; };
 		CC4CFA0417B31D3B0032B4FF /* IWOpenBracketSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4CFA0317B31D3B0032B4FF /* IWOpenBracketSearchResult.m */; };
 		CC50B92017AE575600CFEE73 /* NSView+Dump.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50B91F17AE575600CFEE73 /* NSView+Dump.m */; };
@@ -22,10 +26,6 @@
 		CC5885DC17B21C0A00C05B2E /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5885DB17B21C0A00C05B2E /* OCHamcrest.framework */; };
 		CC5885DD17B21C2F00C05B2E /* OCHamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC5885DB17B21C0A00C05B2E /* OCHamcrest.framework */; };
 		CC6DFD9317B513AD00BB1574 /* DVTSourceTextView+AceJump.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6DFD9117B513AD00BB1574 /* DVTSourceTextView+AceJump.m */; };
-		CC70BA2817CFDA9A00BE3CDC /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70BA2417CFDA9A00BE3CDC /* IDEFoundation.framework */; };
-		CC70BA2917CFDA9A00BE3CDC /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70BA2517CFDA9A00BE3CDC /* IDEKit.framework */; };
-		CC70BA2A17CFDA9A00BE3CDC /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70BA2617CFDA9A00BE3CDC /* DVTFoundation.framework */; };
-		CC70BA2B17CFDA9A00BE3CDC /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70BA2717CFDA9A00BE3CDC /* DVTKit.framework */; };
 		CC76293117ACAE1400B16C79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC76293017ACAE1400B16C79 /* Cocoa.framework */; };
 		CC76293B17ACAE1400B16C79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC76293917ACAE1400B16C79 /* InfoPlist.strings */; };
 		CC76294417ACAEE300B16C79 /* XMate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC76294317ACAEE300B16C79 /* XMate.m */; };
@@ -79,6 +79,10 @@
 		CC0559C317AFD50E00539F89 /* IWSelectAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWSelectAction.m; sourceTree = "<group>"; };
 		CC2E864E17B8F1A400025196 /* IWAceJumpCharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWAceJumpCharacterSet.h; sourceTree = "<group>"; };
 		CC2E864F17B8F1A400025196 /* IWAceJumpCharacterSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWAceJumpCharacterSet.m; sourceTree = "<group>"; };
+		CC33443917E24F38005165AD /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		CC33443A17E24F38005165AD /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		CC33443B17E24F38005165AD /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		CC33443C17E24F38005165AD /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
 		CC359FE717B8D093009871BC /* ParseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseKit.framework; path = SharedFrameworks/ParseKit.framework; sourceTree = "<group>"; };
 		CC44F97C17AE15A000C1B3EF /* NSString+Searching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Searching.h"; sourceTree = "<group>"; };
 		CC44F97D17AE15A000C1B3EF /* NSString+Searching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Searching.m"; sourceTree = "<group>"; };
@@ -140,10 +144,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC70BA2817CFDA9A00BE3CDC /* IDEFoundation.framework in Frameworks */,
-				CC70BA2917CFDA9A00BE3CDC /* IDEKit.framework in Frameworks */,
-				CC70BA2A17CFDA9A00BE3CDC /* DVTFoundation.framework in Frameworks */,
-				CC70BA2B17CFDA9A00BE3CDC /* DVTKit.framework in Frameworks */,
+				CC33443D17E24F38005165AD /* IDEFoundation.framework in Frameworks */,
+				CC33443E17E24F38005165AD /* IDEKit.framework in Frameworks */,
+				CC33443F17E24F38005165AD /* DVTFoundation.framework in Frameworks */,
+				CC33444017E24F38005165AD /* DVTKit.framework in Frameworks */,
 				CCF29B8317B8CCA00088A0FF /* libParseKit.a in Frameworks */,
 				CC76293117ACAE1400B16C79 /* Cocoa.framework in Frameworks */,
 			);
@@ -210,6 +214,10 @@
 		CC76292F17ACAE1400B16C79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC33443917E24F38005165AD /* IDEFoundation.framework */,
+				CC33443A17E24F38005165AD /* IDEKit.framework */,
+				CC33443B17E24F38005165AD /* DVTFoundation.framework */,
+				CC33443C17E24F38005165AD /* DVTKit.framework */,
 				CC70BA2417CFDA9A00BE3CDC /* IDEFoundation.framework */,
 				CC70BA2517CFDA9A00BE3CDC /* IDEKit.framework */,
 				CC70BA2617CFDA9A00BE3CDC /* DVTFoundation.framework */,
@@ -578,6 +586,8 @@
 					$SRCROOT/SharedFrameworks,
 					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/Frameworks",
 					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -605,6 +615,8 @@
 					$SRCROOT/SharedFrameworks,
 					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/Frameworks",
 					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
