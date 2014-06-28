@@ -16,12 +16,12 @@
 {
 	[super drawRect:dirtyRect];
     
-    [[NSColor yellowColor] set];
+    [[[NSColor yellowColor] colorWithAlphaComponent:0.8] set];
 	NSRectFill(dirtyRect);
     
-    [self.candidateCharacter drawInRect:NSInsetRect(dirtyRect, 2, -1)
-                          withAttributes:@{NSForegroundColorAttributeName: [NSColor blackColor],
-                                           NSFontAttributeName: [NSFont fontWithName:@"Menlo Regular" size:12]}];
+    [self.candidateCharacter drawInRect:NSInsetRect(dirtyRect, 1, -4)
+                         withAttributes:@{NSForegroundColorAttributeName: [NSColor blackColor],
+                                          NSFontAttributeName: [NSFont fontWithName:@"Menlo Regular" size:14]}];
 }
 
 @end
