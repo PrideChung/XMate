@@ -34,9 +34,9 @@ static XMate *mate;
                                                      name:NSApplicationDidFinishLaunchingNotification
                                                    object:nil];
         
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(notificationListener:)
-                                                     name:nil object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self
+//                                                 selector:@selector(notificationListener:)
+//                                                     name:nil object:nil];
     }
     return self;
 }
