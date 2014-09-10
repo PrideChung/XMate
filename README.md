@@ -16,7 +16,7 @@ It's a Xcode plugin provides some handy TextMate and Emacs actions.
 ![image](http://i.minus.com/ibzQzA079MFYWc.gif)
 
 ## Requirement
-Xcode5.1
+Xcode5.1 or above, including Xcode 6
 
 ## Installation
 
