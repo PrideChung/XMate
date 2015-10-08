@@ -7,21 +7,21 @@ TextMate and Emacs goodies for Xcode.
 ## What is it?
 It's a Xcode plugin provides some handy TextMate and Emacs actions.
 
-###Selecting actions demo:
+###XMate actions in Edit menu:
 
-![image](http://i.minus.com/i9B2FwGwiUJ8F.gif)
+![image](http://shrani.si/f/1e/aO/YOG53s9/xmateeditmenu.png)
 
 ###Emacs Ace Jump mode demo:
 
-![image](http://i.minus.com/ibzQzA079MFYWc.gif)
+![image](http://shrani.si/f/2W/4x/111moo/xmateacejump.gif)
 
 ## Requirement
-Xcode5.1 or above, including Xcode 6
+Xcode 5.1 or above
 
 ## Installation
 
 ### Build It Yourself
-1. Make sure the file path of Xcode5.1 is `/Applications/Xcode.app`, because some Xcode frameworks need to be linked from the Xcode app itself.
+1. Make sure the file path of Xcode is `/Applications/Xcode.app`, because some Xcode frameworks need to be linked from the Xcode app itself.
 2. Clone this repo, build it, then restart Xcode.
 
 ### Or Use My Build
@@ -39,13 +39,13 @@ You can find XMate's actions under Xcode's **Edit** menu if it's loaded.
 
 All available actions are under Xcode's "Edit" menu. There aren't any keyboard shortcuts by default in case of conflicts. You can assign your favorite keyboard shortcuts in `System Preferences` -> `Keyboard`.
 
-![image](http://i.minus.com/imGDxlIUWBuCr.png)
+![image](http://shrani.si/f/1X/IM/4XjN1aFt/xmatekeyboardprefs.png)
 
 Here're all available actions, save you some typing.
-
-XMate:Select Scope  
-XMate:Select between Brackets  
-XMate:Ace Jump
+`XMate:Select Scope`
+`XMate:Select between Brackets`
+`XMate:Ace Jump`
+`XMate:Ace Jump Word`
 
 ### Selecting Actions
 
@@ -57,9 +57,9 @@ Select brackets action is similar to select scope action, but it will only exten
 
 ### Ace Jump
 
-1. Press the ace jump menu item or the hotkey you assigned, A little text field will pop up at the lower left corner of your current active editing area.
+1. Press the Ace Jump menu item or the hotkey you assigned. A little text field will pop up at the lower left corner of your current active editing area.
 
-2. Input the character you want to jump to (case sensitive, can be letters or symbols), all the same characters will be covered by a yellow label with a lowercased indicating letter.
+2. Input the character you want to jump to (case sensitive, can be letters or symbols), all the same characters will be covered by a yellow label with a lowercased indicating letter. In the word-mode, only words' first characters will be highlighted.
 
 3. Input the indicating letter, the caret will be moved to that location.
 
@@ -67,7 +67,7 @@ Select brackets action is similar to select scope action, but it will only exten
 
 5. Sometimes there're too many same characters on the screen, 26 letters are not enough to represent all of them, you can push `tab` or `return` to switch to next group.
 
-6. You can always push `esc` or the ace jump hotkey you assigned to quit ace jump mode.-
+6. You can always push `esc` or the Ace Jump hotkey you assigned to quit ace jump mode.
 
 ## XVim Compatibility
 
