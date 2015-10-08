@@ -4,6 +4,7 @@
 
 - (void)selectScopeDidTrigger;
 - (void)selectBracketDidTrigger;
-- (void)aceJumpDidTrigger;
+- (void)aceJumpCharDidTrigger;
+- (void)aceJumpWordDidTrigger;
 
 @end

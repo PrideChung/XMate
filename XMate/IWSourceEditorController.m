@@ -82,14 +82,24 @@
     [selectAction selectPairedBrackets];
 }
 
-- (void)aceJumpDidTrigger
+- (void)aceJumpDidTrigger:(IWAceJumpMode)mode
 {
     if ([self.activeEditor isKindOfClass:[DVTSourceTextView class]]) {
         if (!self.activeEditor.aceJumpController.sourceTextView) {
             self.activeEditor.aceJumpController.sourceTextView = self.activeEditor;
         }
-        [self.activeEditor.aceJumpController toggleAceJumpMode];
+        [self.activeEditor.aceJumpController toggleAceJumpMode:mode];
     }
+}
+
+- (void)aceJumpCharDidTrigger
+{
+    [self aceJumpDidTrigger:IWAceJumpModeCharacter];
+}
+
+- (void)aceJumpWordDidTrigger
+{
+    [self aceJumpDidTrigger:IWAceJumpModeWord];
 }
 
 - (DVTSourceTextView *)sourceTextViewEditorContext:(IDEEditorContext *)context
