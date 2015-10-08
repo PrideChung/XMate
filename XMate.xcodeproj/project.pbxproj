@@ -334,7 +334,6 @@
 				CC76292917ACAE1400B16C79 /* Sources */,
 				CC76292A17ACAE1400B16C79 /* Frameworks */,
 				CC76292B17ACAE1400B16C79 /* Resources */,
-				F175B88552204D17B2FF66D3 /* Find unused imports */,
 			);
 			buildRules = (
 			);
@@ -370,7 +369,7 @@
 		CC76292517ACAE1400B16C79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Indie Works";
 				TargetAttributes = {
 					CC8D161017AFADC400EFF3DE = {
@@ -415,23 +414,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		F175B88552204D17B2FF66D3 /* Find unused imports */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Find unused imports";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"/Users/pride/Library/Application Support/Developer/Shared/Xcode/Plug-ins/xcfui.xcplugin/Contents/Resources/fui_script.sh\" \"/Users/pride/Projects/Xcode Plugins/XMate\"";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC76292917ACAE1400B16C79 /* Sources */ = {
