@@ -41,11 +41,7 @@ All available actions are under Xcode's "Edit" menu. There aren't any keyboard s
 
 ![image](http://shrani.si/f/1X/IM/4XjN1aFt/xmatekeyboardprefs.png)
 
-Here're all available actions, save you some typing.
-`XMate:Select Scope`
-`XMate:Select between Brackets`
-`XMate:Ace Jump`
-`XMate:Ace Jump Word`
+Here're all available actions, to save you some typing: `XMate:Select Scope`, `XMate:Select between Brackets`, `XMate:Ace Jump`, `XMate:Ace Jump Word`.
 
 ### Selecting Actions
 
