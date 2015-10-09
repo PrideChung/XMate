@@ -39,14 +39,6 @@
 #endif
         return;
     }
-    
-    if (![[self.editor selectedRanges] count] > 1) {
-        // Don't handle multi selection
-#if DEBUG_SELECTION
-        NSLog(@"Multiple selection.");
-#endif
-        return;
-    }
 
     NSRange selectedRange = [self.editor selectedRange];
     NSString *editorText = [[self.editor textStorage] string];
