@@ -50,20 +50,21 @@
     self.mode = IWAceJumpModeWord;
     
     NSString *s = @"[self.textField setStringValue:[[self.textField stringValue] substringToIndex:1]];";
+    NSRange range = NSMakeRange(0, [s length] - 1);
     
-    NSArray *ranges = [s rangesOfCharacter:@"f" range:NSMakeRange(0, [s length]) mode:self.mode];
+    NSArray *ranges = [s rangesOfCharacter:@"f" range:range mode:self.mode];
     XCTAssertEqual([ranges count], 0ul);
     
-    ranges = [s rangesOfCharacter:@"1" range:NSMakeRange(1, [s length] - 1) mode:self.mode];
+    ranges = [s rangesOfCharacter:@"1" range:range mode:self.mode];
     XCTAssertEqual([ranges count], 1ul);
     XCTAssertTrue(NSEqualRanges([ranges[0] rangeValue], NSMakeRange(s.length-4, 1)));
     
-    ranges = [s rangesOfCharacter:@"t" range:NSMakeRange(1, [s length] - 1) mode:self.mode];
+    ranges = [s rangesOfCharacter:@"t" range:range mode:self.mode];
     XCTAssertEqual([ranges count], 2ul);
     XCTAssertTrue(NSEqualRanges([ranges[0] rangeValue], NSMakeRange(6, 1)));
     XCTAssertTrue(NSEqualRanges([ranges[1] rangeValue], NSMakeRange(38, 1)));
     
-    ranges = [s rangesOfCharacter:@"s" range:NSMakeRange(1, [s length] - 1) mode:self.mode];
+    ranges = [s rangesOfCharacter:@"s" range:range mode:self.mode];
     XCTAssertEqual([ranges count], 5ul);
     XCTAssertTrue(NSEqualRanges([ranges[2] rangeValue], NSMakeRange(33, 1)));
 }
