@@ -96,7 +96,7 @@
     IWBracketSearcher *searcher = [[IWBracketSearcher alloc] initWithTokens:self.mockTokens1
                                                               selectedRange:NSMakeRange(1, 0)];
     IWOpenBracketSearchResult *result = [searcher searchForOpenBracketBeforeCaret];
-    XCTAssertEqual(result.range, NSMakeRange(0, 1));
+    XCTAssertTrue(NSEqualRanges(result.range, NSMakeRange(0, 1)));
     XCTAssertEqualObjects(result.openBracketChar, @"{");
     XCTAssertEqualObjects(result.closingBracketChar, @"}");
     
@@ -104,7 +104,7 @@
     searcher = [[IWBracketSearcher alloc] initWithTokens:self.mockTokens2
                                         selectedRange:NSMakeRange(6, 0)];
     result = [searcher searchForOpenBracketBeforeCaret];
-    XCTAssertEqual(result.range, NSMakeRange(2, 1));
+    XCTAssertTrue(NSEqualRanges(result.range, NSMakeRange(2, 1)));
     XCTAssertEqualObjects(result.openBracketChar, @"[");
     XCTAssertEqualObjects(result.closingBracketChar, @"]");
 }
@@ -120,9 +120,9 @@
                                                           selectedRange:NSMakeRange(NSNotFound, 0)];
     
 
-    XCTAssertEqual([searcher rangeForClosingBracket:@"}"
-                                usingOpenBracket:@"{"
-                                 searchingOffset:0], NSMakeRange(2, 1));
+    XCTAssertTrue(NSEqualRanges([searcher rangeForClosingBracket:@"}"
+                                                usingOpenBracket:@"{"
+                                                 searchingOffset:0], NSMakeRange(2, 1)));
     
    /* Mock tokens should looks like this, caret means searching offset :
     0 1 2 3 4 5 6 7 8 9
@@ -131,9 +131,9 @@
     */
     searcher = [[IWBracketSearcher alloc] initWithTokens:self.mockTokens2
                                         selectedRange:NSMakeRange(NSNotFound, 0)];
-    XCTAssertEqual([searcher rangeForClosingBracket:@"]"
-                                 usingOpenBracket:@"["
-                                  searchingOffset:2], NSMakeRange(7, 1));
+    XCTAssertTrue(NSEqualRanges([searcher rangeForClosingBracket:@"]"
+                                                usingOpenBracket:@"["
+                                                 searchingOffset:2], NSMakeRange(7, 1)));
 }
 
 @end
