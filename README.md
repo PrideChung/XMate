@@ -1,22 +1,22 @@
 XMate
 ==============
 
-TextMate and Emacs goodies for Xcode.
-
-
-## What is it?
-It's a Xcode plugin provides some handy TextMate and Emacs actions.
-
-###XMate actions in Edit menu:
+Plugin for Xcode that adds some handy TextMate and Emacs actions to the `Edit` menu. Works in Xcode 5.1 or above.
 
 ![image](http://shrani.si/f/1e/aO/YOG53s9/xmateeditmenu.png)
 
-###Emacs Ace Jump mode demo:
+##Demos
+
+###Select Scope:
+
+![image](http://shrani.si/f/3o/ay/2pXNSDZr/xmatescope.gif)
+
+###Ace Jump mode:
+![image](http://shrani.si/f/3I/uK/49yjQ1Av/acejumpchar.gif)
+
+###Ace Jump Word mode:
 
 ![image](http://shrani.si/f/2W/4x/111moo/xmateacejump.gif)
-
-## Requirement
-Xcode 5.1 or above
 
 ## Installation
 
@@ -29,15 +29,13 @@ Xcode 5.1 or above
 2. Unzip it, move `XMate.xcplugin` into `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins`.
 3. Restart Xcode.
 
-
-You can find XMate's actions under Xcode's **Edit** menu if it's loaded.
-
+You can find XMate's actions under Xcode's `Edit` menu if it's loaded.
 
 ## Usage
 
 ### Set Your Own Keyboard Shortcuts
 
-All available actions are under Xcode's "Edit" menu. There aren't any keyboard shortcuts by default in case of conflicts. You can assign your favorite keyboard shortcuts in `System Preferences` -> `Keyboard`.
+All available actions are under Xcode's `Edit` menu. There aren't any keyboard shortcuts by default in case of conflicts. You can assign your favorite keyboard shortcuts in `System Preferences` -> `Keyboard`.
 
 ![image](http://shrani.si/f/1X/IM/4XjN1aFt/xmatekeyboardprefs.png)
 
@@ -63,7 +61,7 @@ Select brackets action is similar to select scope action, but it will only exten
 
 5. Sometimes there're too many same characters on the screen, 26 letters are not enough to represent all of them, you can push `tab` or `return` to switch to next group.
 
-6. You can always push `esc` or the Ace Jump hotkey you assigned to quit ace jump mode.
+6. You can always push `esc` or the Ace Jump hotkey you assigned to quit Ace Jump mode.
 
 ## XVim Compatibility
 
