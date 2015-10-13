@@ -14,6 +14,7 @@ typedef NS_ENUM(NSUInteger, IWAceJumpState) {
 @interface IWAceJumpController () <NSTextFieldDelegate>
 
 @property (nonatomic) IWAceJumpState state; // Indicates if ace jump mode is being active.
+@property (nonatomic) IWAceJumpMode aceJumpMode; // Indicates which ace jump mode is active.
 @property (strong, nonatomic) NSMutableArray *candidateLabels;
 
 @property (strong, nonatomic) NSArray *candidateRanges;
@@ -32,11 +33,11 @@ typedef NS_ENUM(NSUInteger, IWAceJumpState) {
     return self;
 }
 
-- (void)toggleAceJumpMode
+- (void)toggleAceJumpMode:(IWAceJumpMode)mode
 {
     if (self.state == IWAceJumpStateInactive) {
+        self.aceJumpMode = mode;
         [self enterAceJumpMode];
-        
     } else {
         [self quitAceJumpMode];
     }
@@ -138,7 +139,9 @@ typedef NS_ENUM(NSUInteger, IWAceJumpState) {
     self.candidateOffset = 0;
     NSString *character = [[self.textField stringValue] substringWithRange:NSMakeRange(0, 1)];
     self.candidateRanges = [[[self.sourceTextView textStorage] string] rangesOfCharacter:character
-                                                                                   range:[self visibleTextRangeInSourceTextView]];
+                                                                                   range:[self visibleTextRangeInSourceTextView]
+                                                                                    mode:self.aceJumpMode];
+    
     [self nextCandidateBatch];
 }
 

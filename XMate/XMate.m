@@ -63,15 +63,21 @@ static XMate *mate;
                                                          keyEquivalent:@""];
         
         self.aceJumpMenuItem = [[NSMenuItem alloc] initWithTitle:@"XMate:Ace Jump"
-                                                                action:@selector(aceJumpDidTrigger)
-                                                         keyEquivalent:@""];
-
+                                                          action:@selector(aceJumpCharDidTrigger)
+                                                   keyEquivalent:@""];
+        
+        self.aceJumpWordMenuItem = [[NSMenuItem alloc] initWithTitle:@"XMate:Ace Jump Word"
+                                                              action:@selector(aceJumpWordDidTrigger)
+                                                       keyEquivalent:@""];
+        
         [self.selectScopeMenuItem setTarget:self.editorController];
         [self.selectBracketMenuItem setTarget:self.editorController];
         [self.aceJumpMenuItem setTarget:self.editorController];
+        [self.aceJumpWordMenuItem setTarget:self.editorController];
         [[editMenuItem submenu] addItem:self.selectScopeMenuItem];
         [[editMenuItem submenu] addItem:self.selectBracketMenuItem];
         [[editMenuItem submenu] addItem:self.aceJumpMenuItem];
+        [[editMenuItem submenu] addItem:self.aceJumpWordMenuItem];
     }
 }
 

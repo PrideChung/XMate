@@ -144,7 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC33443D17E24F38005165AD /* IDEFoundation.framework in Frameworks */,
+				4D4F39921BC8021300B3BB2E /* IDEFoundation.framework in Frameworks */,
 				CC33443E17E24F38005165AD /* IDEKit.framework in Frameworks */,
 				CC33443F17E24F38005165AD /* DVTFoundation.framework in Frameworks */,
 				CC33444017E24F38005165AD /* DVTKit.framework in Frameworks */,
@@ -334,7 +334,6 @@
 				CC76292917ACAE1400B16C79 /* Sources */,
 				CC76292A17ACAE1400B16C79 /* Frameworks */,
 				CC76292B17ACAE1400B16C79 /* Resources */,
-				F175B88552204D17B2FF66D3 /* Find unused imports */,
 			);
 			buildRules = (
 			);
@@ -370,7 +369,7 @@
 		CC76292517ACAE1400B16C79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Indie Works";
 				TargetAttributes = {
 					CC8D161017AFADC400EFF3DE = {
@@ -415,23 +414,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		F175B88552204D17B2FF66D3 /* Find unused imports */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Find unused imports";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/bin/sh \"/Users/pride/Library/Application Support/Developer/Shared/Xcode/Plug-ins/xcfui.xcplugin/Contents/Resources/fui_script.sh\" \"/Users/pride/Projects/Xcode Plugins/XMate\"";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC76292917ACAE1400B16C79 /* Sources */ = {
@@ -602,20 +584,15 @@
 					"$(inherited)",
 					$SRCROOT,
 					$SRCROOT/SharedFrameworks,
-					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/Frameworks",
-					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/SharedFrameworks",
-					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMate/XMate-Prefix.pch";
 				INFOPLIST_FILE = "XMate/XMate-Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/pride/Projects/Xcode/XMate,
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
 			};
@@ -631,20 +608,15 @@
 					"$(inherited)",
 					$SRCROOT,
 					$SRCROOT/SharedFrameworks,
-					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/Frameworks",
-					"$(SYSTEM_APPS_DIR)/Xcode5.app/Contents/SharedFrameworks",
-					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMate/XMate-Prefix.pch";
 				INFOPLIST_FILE = "XMate/XMate-Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/pride/Projects/Xcode/XMate,
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
 			};
@@ -671,7 +643,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$SRCROOT/**",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ParseKit-dedcuiziyyxdbifpdjamhgyubzhz/Build/Products/Debug",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "";
@@ -696,7 +667,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$SRCROOT/**",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ParseKit-dedcuiziyyxdbifpdjamhgyubzhz/Build/Products/Debug",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "";
